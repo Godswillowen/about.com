@@ -1,0 +1,146 @@
+/* Reset default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    color:white;
+  }
+  
+  /* Set body font and background */
+  body {
+    font-family: Arial, sans-serif;
+    background-color:black 
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: dodgerblue;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 700;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-size: 30px;
+  }
+
+  a:hover{
+    color: lime;
+  }
+  
+  /* Section styling */
+  section {
+    padding: 40px;
+  }
+  
+  /* Project box styling */
+  .project {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive design */
+  h1{
+    color: dodgerblue;
+  }
+  span{
+    color: darkorange;
+  }
+
+  #about{
+    margin-bottom: 50px;
+    font-family: Arial, sans-serif;
+    font-size:60px;
+  }
+ .about:hover{
+background-color: blue;
+padding: 100px;
+border-radius: 14px;
+transition-duration: 4s;
+ }
+ 
+ .about{
+    color: aliceblue;
+    line-height: 1.6;
+  }
+
+ .project{
+  background-color: rgba(105, 99, 99, 0.518);
+  border-radius: 12px;
+  margin:2rem 3rem 0rem 3rem ;
+ } 
+
+#bnt{
+  width:130px ;
+  height: 45px;
+  border-radius: 10px;
+  background: blue;
+  color: aliceblue;
+}
+
+input{
+  height: 35px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  background: #cbc6c6;
+}
+
+.send{
+  height: 37px;
+  background: blue;
+  color: aliceblue;
+  border-radius: 50px;
+}
+
+#message{
+ height: 70px;
+ width: 100%; 
+ padding: 8px;
+  border-radius: 12px;
+  background: #cbc6c6;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 99%;
+  background: #333;
+  color: #eee;
+}
+
+.contact{
+  font-size: 40px;
+  text-shadow: 4px 4px 5px aliceblue;
+}
+
+
+#poj{
+  font-size: 40px;
+}
+
