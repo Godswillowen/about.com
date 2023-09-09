@@ -78,11 +78,12 @@ body, h1, h2, h3, p {
 background-color: blue;
 padding: 100px;
 border-radius: 14px;
-transition-duration: 4s;
+/*transition-duration:4s;*/
  }
  
  .about{
-    color: aliceblue;
+    transition:ease-in-out 3s all; 
+     color: aliceblue;
     line-height: 1.6;
   }
 
